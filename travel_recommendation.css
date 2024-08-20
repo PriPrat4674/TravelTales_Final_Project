@@ -1,0 +1,275 @@
+body {
+    background-image: url("image_4.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(70, 130, 160, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FAFAD2;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: floralwhite;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.align_navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25%;
+    position: relative; 
+    width: 350px;
+}
+
+.align_navbar input[type="text"] {
+    border: none;
+    color: black;
+    width: 350px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+::placeholder {
+    color: slateblue;
+}
+
+.align_navbar .search,
+.align_navbar .clear {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 2px;
+    margin-left: 2px;
+    border: none;
+    background-color: powderblue;
+    color: black;
+    padding: 5px;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+.align_navbar .search {
+    right: 55px;
+}
+
+.align_navbar .clear {
+    right: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.description {
+    font-size: 18px;
+    text-align: left;
+    padding: 100px;
+    width: 60%;
+    color: ghostwhite;
+    font-weight: bold;
+}
+
+.result {
+    width: 35%;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 500px;
+    color: white;
+}
+
+.result h2 {
+    margin-top: 0;
+}
+
+.result img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.social_media {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.social_media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social_media_icons {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 50%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_media_icons i {
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+}
+
+.para {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Georgia;
+}
+
+/* Additional Styles */
+.about_us_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    margin: 30px;
+    text-align: justify;
+    font-size: 27px;
+    color: whitesmoke;
+    font-family: serif;
+}
+
+.about_us_roles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.role-box {
+    flex: 1 1 22%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 170px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    min-width: 150px;
+}
+
+.role-main {
+    flex: 1 1 15%;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5em;
+}
+
+.role-box h3 {
+    font-size: 1.2em;
+    font-family: Georgia;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.role-box p {
+    font-size: 1em;
+    color: #666;
+}
+
+.link_roles a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+.link_roles{
+    background-color: ghostwhite;
+}
+
+button {
+    border: none;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+#contactForm {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 200%; 
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+#contactForm button {
+    padding: 10px 20px;
+    background-color: rgba(255, 0, 0, 0.45);
+    color: white;
+    border: none;
+    width: 200%; 
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+}
+
+.contact-details {
+    padding: 150px 50px;
+    margin: 50px;
+}
